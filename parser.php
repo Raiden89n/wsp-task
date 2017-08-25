@@ -28,7 +28,7 @@ foreach($words as $key => $value){
         $longest_word = $key;
     }
 }
-echo "The longest word is: ".$longestWord."<br>";
+echo "The longest word is: ".$longest_word."<br>";
 
 //MOST COMMON LETTER
 echo "<h2>Most common letter</h2>";
