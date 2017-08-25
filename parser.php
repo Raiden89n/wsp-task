@@ -20,12 +20,12 @@ arsort($words); //Sort an array in reverse order and maintain index association
 
 //LONGEST WORD
 echo "<h2>Longest Word</h2>";
-$longestWordLength = 0;
-$longestWord = '';
+$longest_word_length = 0;
+$longest_word = '';
 foreach($words as $key => $value){
-    if (strlen($key) > $longestWordLength) {
-        $longestWordLength = strlen($key);
-        $longestWord = $key;
+    if (strlen($key) > $longest_word_length) {
+        $longest_word_length = strlen($key);
+        $longest_word = $key;
     }
 }
 echo "The longest word is: ".$longestWord."<br>";
